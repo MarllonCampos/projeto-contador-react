@@ -29,7 +29,7 @@ function App() {
        <button className="plus-5 button-action" onClick={() => {sum( 5 )}}>+5</button>
        <button className="plus-10 button-action" onClick={() => {sum( 10 )}}>+10</button>
      </div>
-
+    <p> O valor atual é de {counterValue}</p>
    </div>
   );
 }
